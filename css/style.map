@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.sass"
+	],
+	"sourcesContent": [
+		"html {\n    font-size: 62.5%; }\n\n\n.container {\n    height: 100%;\n    overflow: hidden;\n    min-height: 100%;\n    padding: 5rem; }\n\n\nbody {\n    font-family: Arial, \"Helvetica Neue\", Helvetica, sans-serif; }\n\n.header {\n\n    &__row {\n        display: flex;\n        align-items: flex-end;\n\n        border: 2rem solid #ece89d;\n        margin: 0rem, 0rem, 2rem, 0rem; }\n\n\n    &__box {\n        border: 2rem solid #5e5375;\n        // flex-basis: 40rem\n        // flex-grow: 1\n        // flex-shrink: 0\n\n\n\n\n\n        &-1 {}\n\n        &-2 {}\n\n        &-3 {} }\n\n    &__elem {\n        background: #18b5a4;\n        padding: 6rem;\n        font-size: 5rem;\n        color: #fff;\n\n        &-2 {\n            padding: 8rem; } }\n\n    &__list {\n        display: flex;\n        align-items: center;\n        li {\n            margin: 0rem, 1.5rem, 0rem, 0rem;\n            & {\n                last-childmargin: 0rem, 0rem, 0rem, 0rem; } } }\n\n    &__info {\n        position: relative;\n        padding: 0rem, 0rem, 0rem, 1.5rem;\n        line-height: 1.4rem;\n\n        &-1 {\n            padding-right: 2rem; }\n\n        &-2 {\n            padding-right: 2rem; }\n\n        &-3 {\n            padding-right: 2rem; } } }\n\n\n\n\n\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,IAAI,CAAC;EACD,SAAS,EAAE,KAAK;CAAG;;;AAGvB,AAAA,UAAU,CAAC;EACP,MAAM,EAAE,IAAI;EACZ,QAAQ,EAAE,MAAM;EAChB,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,IAAI;CAAG;;;AAGpB,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,8CAA8C;CAAG;;;AAI7D,AAAD,YAAM,CAAC;EACH,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,QAAQ;EAErB,MAAM,EAAE,kBAAkB;EAC1B,MAAM,EAAE,sBAAsB;CAAG;;;AAGpC,AAAD,YAAM,CAAC;EACH,MAAM,EAAE,kBAAkB;CAalB;;;AAEX,AAAD,aAAO,CAAC;EACJ,UAAU,EAAE,OAAO;EACnB,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,IAAI;CAGW;;;AADrB,AAAD,eAAG,CAAC;EACA,OAAO,EAAE,IAAI;CAAG;;;AAEvB,AAAD,aAAO,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;CAIoC;;;AAN1D,AAGG,aAHG,CAGH,EAAE,CAAC;EACC,MAAM,EAAE,wBAAwB;CAEiB;;;AANxD,AAKO,aALD,CAGH,EAAE,CAEI;EACE,gBAAgB,EAAE,sBAAsB;CAAG;;;AAEtD,AAAD,aAAO,CAAC;EACJ,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,wBAAwB;EACjC,WAAW,EAAE,MAAM;CASS;;;AAP3B,AAAD,eAAG,CAAC;EACA,aAAa,EAAE,IAAI;CAAG;;;AAEzB,AAAD,eAAG,CAAC;EACA,aAAa,EAAE,IAAI;CAAG;;;AAEzB,AAAD,eAAG,CAAC;EACA,aAAa,EAAE,IAAI;CAAG"
+}

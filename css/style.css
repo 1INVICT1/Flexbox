@@ -1,0 +1,83 @@
+/* line 1, ../flexbox/sass/style.sass */
+html {
+  font-size: 62.5%;
+}
+
+/* line 5, ../flexbox/sass/style.sass */
+.container {
+  height: 100%;
+  overflow: hidden;
+  min-height: 100%;
+  padding: 5rem;
+}
+
+/* line 12, ../flexbox/sass/style.sass */
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* line 17, ../flexbox/sass/style.sass */
+.header__row {
+  display: flex;
+  align-items: flex-end;
+  border: 2rem solid #ece89d;
+  margin: 0rem, 0rem, 2rem, 0rem;
+}
+
+/* line 25, ../flexbox/sass/style.sass */
+.header__box {
+  border: 2rem solid #5e5375;
+}
+
+/* line 41, ../flexbox/sass/style.sass */
+.header__elem {
+  background: #18b5a4;
+  padding: 6rem;
+  font-size: 5rem;
+  color: #fff;
+}
+
+/* line 47, ../flexbox/sass/style.sass */
+.header__elem-2 {
+  padding: 8rem;
+}
+
+/* line 50, ../flexbox/sass/style.sass */
+.header__list {
+  display: flex;
+  align-items: center;
+}
+
+/* line 53, ../flexbox/sass/style.sass */
+.header__list li {
+  margin: 0rem, 1.5rem, 0rem, 0rem;
+}
+
+/* line 55, ../flexbox/sass/style.sass */
+.header__list li {
+  last-childmargin: 0rem, 0rem, 0rem, 0rem;
+}
+
+/* line 58, ../flexbox/sass/style.sass */
+.header__info {
+  position: relative;
+  padding: 0rem, 0rem, 0rem, 1.5rem;
+  line-height: 1.4rem;
+}
+
+/* line 63, ../flexbox/sass/style.sass */
+.header__info-1 {
+  padding-right: 2rem;
+}
+
+/* line 66, ../flexbox/sass/style.sass */
+.header__info-2 {
+  padding-right: 2rem;
+}
+
+/* line 69, ../flexbox/sass/style.sass */
+.header__info-3 {
+  padding-right: 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */
