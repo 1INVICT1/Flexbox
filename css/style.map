@@ -5,8 +5,8 @@
 		"../sass/style.sass"
 	],
 	"sourcesContent": [
-		""
+		"html {\n    font-size: 62.5%; }\n\nbody {\n    font-family: Arial, \"Helvetica Neue\", Helvetica, sans-serif;\n    padding: 0;\n    margin: 0; }\n\n.header {\n    display: flex;\n    flex-direction: column;\n\n    color: #fff;\n    width: 100%;\n    overflow: hidden;\n    min-height: 32.5rem;\n    background: #445161;\n\n    &__container {\n         padding: 5rem; }\n\n    &__flex {\n        display: flex;\n        justify-content: space-between; }\n\n    &__text {\n        font-size: 6rem; }\n\n    &__img {}\n\n    &__list {\n        font-size: 2rem; } }\n\n\n\n"
 	],
 	"names": [],
-	"mappings": ""
+	"mappings": ";AAAA,AAAA,IAAI,CAAC;EACD,SAAS,EAAE,KAAK;CAAG;;;AAEvB,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,8CAA8C;EAC3D,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;CAAG;;;AAEhB,AAAA,OAAO,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EAEtB,KAAK,EAAE,IAAI;EACX,KAAK,EAAE,IAAI;EACX,QAAQ,EAAE,MAAM;EAChB,UAAU,EAAE,OAAO;EACnB,UAAU,EAAE,OAAO;CAeK;;;AAbvB,AAAD,kBAAY,CAAC;EACR,OAAO,EAAE,IAAI;CAAG;;;AAEpB,AAAD,aAAO,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CAAG;;;AAEpC,AAAD,aAAO,CAAC;EACJ,SAAS,EAAE,IAAI;CAAG;;;AAIrB,AAAD,aAAO,CAAC;EACJ,SAAS,EAAE,IAAI;CAAG"
 }

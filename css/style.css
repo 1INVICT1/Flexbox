@@ -1,2 +1,45 @@
+/* line 1, ../flexbox/sass/style.sass */
+html {
+  font-size: 62.5%;
+}
+
+/* line 4, ../flexbox/sass/style.sass */
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 9, ../flexbox/sass/style.sass */
+.header {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  width: 100%;
+  overflow: hidden;
+  min-height: 32.5rem;
+  background: #445161;
+}
+
+/* line 19, ../flexbox/sass/style.sass */
+.header__container {
+  padding: 5rem;
+}
+
+/* line 22, ../flexbox/sass/style.sass */
+.header__flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 26, ../flexbox/sass/style.sass */
+.header__text {
+  font-size: 6rem;
+}
+
+/* line 31, ../flexbox/sass/style.sass */
+.header__list {
+  font-size: 2rem;
+}
 
 /*# sourceMappingURL=style.css.map */
