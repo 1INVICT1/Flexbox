@@ -11,35 +11,59 @@ body {
 }
 
 /* line 9, ../flexbox/sass/style.sass */
-.header {
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  color: #fff;
-  width: 100%;
-  overflow: hidden;
-  min-height: 32.5rem;
-  background: #445161;
 }
 
-/* line 19, ../flexbox/sass/style.sass */
-.header__container {
+/* line 16, ../flexbox/sass/style.sass */
+.container {
+  margin: 0px auto;
   padding: 5rem;
 }
 
-/* line 22, ../flexbox/sass/style.sass */
+/* line 20, ../flexbox/sass/style.sass */
+.header {
+  flex: 1 1 auto;
+  background-color: #445162;
+  max-height: 32.5rem;
+}
+
+/* line 25, ../flexbox/sass/style.sass */
 .header__flex {
   display: flex;
   justify-content: space-between;
 }
 
-/* line 26, ../flexbox/sass/style.sass */
-.header__text {
-  font-size: 6rem;
+/* line 29, ../flexbox/sass/style.sass */
+.header__body {
+  color: #fff;
+  padding: 0px 20px 0px 0px;
 }
 
-/* line 31, ../flexbox/sass/style.sass */
-.header__list {
+/* line 33, ../flexbox/sass/style.sass */
+.header__text {
+  flex-wrap: nowrap;
+  font-size: 6rem;
+  padding-bottom: 3.8rem;
+}
+
+/* line 38, ../flexbox/sass/style.sass */
+.header__list li {
   font-size: 2rem;
+  background: url(../icon/icon.png) no-repeat;
+  margin: 0rem 0rem 1.5rem 0rem;
+  padding: 0rem 0rem 0rem 3.6rem;
+  list-style-type: none;
+  align-self: flex-start;
+}
+
+/* line 50, ../flexbox/sass/style.sass */
+.img {
+  height: 21.4rem;
+  width: 46.9rem;
 }
 
 /*# sourceMappingURL=style.css.map */
