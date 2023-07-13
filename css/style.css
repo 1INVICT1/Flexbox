@@ -1,16 +1,16 @@
-/* line 1, ../flexbox/sass/style.sass */
+/* line 1, ../flexbox/sass/base/_base.sass */
 html {
   font-size: 62.5%;
 }
 
-/* line 4, ../flexbox/sass/style.sass */
+/* line 4, ../flexbox/sass/base/_base.sass */
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   padding: 0;
   margin: 0;
 }
 
-/* line 9, ../flexbox/sass/style.sass */
+/* line 9, ../flexbox/sass/base/_base.sass */
 .wrapper {
   min-height: 100%;
   overflow: hidden;
@@ -18,7 +18,20 @@ body {
   flex-direction: column;
 }
 
-/* line 18, ../flexbox/sass/style.sass */
+/* line 1, ../flexbox/sass/base/_typography.sass */
+.img {
+  height: 21.4rem;
+  width: 46.9rem;
+}
+
+/* line 6, ../flexbox/sass/base/_typography.sass */
+.img2 {
+  width: 43rem;
+  height: 20rem;
+  margin-right: 4rem;
+}
+
+/* line 3, ../flexbox/sass/box/_box.sass */
 .header__container {
   flex: 1 1 auto;
   background-color: #445162;
@@ -29,26 +42,50 @@ body {
   margin-bottom: 4rem;
 }
 
-/* line 28, ../flexbox/sass/style.sass */
+/* line 13, ../flexbox/sass/box/_box.sass */
 .header__flex {
   display: flex;
   justify-content: space-between;
 }
 
-/* line 32, ../flexbox/sass/style.sass */
+/* line 19, ../flexbox/sass/box/_box.sass */
+.section__container {
+  padding: 0rem 5rem 4.5rem 5rem;
+  margin-bottom: 4.5rem;
+}
+
+/* line 24, ../flexbox/sass/box/_box.sass */
+.section__flex {
+  display: flex;
+}
+
+/* line 30, ../flexbox/sass/box/_box.sass */
+.columns__container {
+  border: 1rem solid black;
+  padding: 0rem 5rem 5rem 5rem;
+}
+
+/* line 34, ../flexbox/sass/box/_box.sass */
+.columns__flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* line 3, ../flexbox/sass/box/_insideBox.sass */
 .header__body {
   color: #fff;
   padding: 0rem 2rem 0rem 0rem;
 }
 
-/* line 36, ../flexbox/sass/style.sass */
+/* line 7, ../flexbox/sass/box/_insideBox.sass */
 .header__text {
   flex-wrap: nowrap;
   font-size: 6rem;
   padding-bottom: 3.8rem;
 }
 
-/* line 41, ../flexbox/sass/style.sass */
+/* line 12, ../flexbox/sass/box/_insideBox.sass */
 .header__list li {
   font-size: 2rem;
   background: url(../icon/icon.png) no-repeat;
@@ -57,72 +94,35 @@ body {
   align-self: flex-start;
 }
 
-/* line 48, ../flexbox/sass/style.sass */
-.img {
-  height: 21.4rem;
-  width: 46.9rem;
-}
-
-/* line 53, ../flexbox/sass/style.sass */
-.section__container {
-  padding: 0rem 5rem 4.5rem 5rem;
-  margin-bottom: 4.5rem;
-}
-
-/* line 58, ../flexbox/sass/style.sass */
-.section__flex {
-  display: flex;
-}
-
-/* line 65, ../flexbox/sass/style.sass */
+/* line 24, ../flexbox/sass/box/_insideBox.sass */
 .section__body {
   color: #445162;
 }
 
-/* line 68, ../flexbox/sass/style.sass */
+/* line 27, ../flexbox/sass/box/_insideBox.sass */
 .section__title {
   font-size: 3rem;
   padding-bottom: 3.5rem;
 }
 
-/* line 72, ../flexbox/sass/style.sass */
+/* line 31, ../flexbox/sass/box/_insideBox.sass */
 .section__text {
   font-size: 1.6rem;
   line-height: 2.4rem;
 }
 
-/* line 76, ../flexbox/sass/style.sass */
+/* line 35, ../flexbox/sass/box/_insideBox.sass */
 .section__text-1 {
   margin-bottom: 3rem;
 }
 
-/* line 78, ../flexbox/sass/style.sass */
-.img2 {
-  width: 43rem;
-  height: 20rem;
-  margin-right: 4rem;
-}
-
-/* line 87, ../flexbox/sass/style.sass */
-.columns__container {
-  border: 1rem solid black;
-  padding: 0rem 5rem 5rem 5rem;
-}
-
-/* line 91, ../flexbox/sass/style.sass */
-.columns__flex {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-/* line 96, ../flexbox/sass/style.sass */
+/* line 41, ../flexbox/sass/box/_insideBox.sass */
 .columns__title {
   color: #445162;
   font-size: 3rem;
 }
 
-/* line 102, ../flexbox/sass/style.sass */
+/* line 47, ../flexbox/sass/box/_insideBox.sass */
 .columns__square-1 {
   width: 20rem;
   height: 15rem;
