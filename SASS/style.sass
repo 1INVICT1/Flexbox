@@ -13,14 +13,17 @@ body
     display: flex
     flex-direction: column
 
-.container
-    margin: 0px auto
-    padding: 5rem
-
 .header
-    flex: 1 1 auto
-    background-color: #445162
-    max-height: 32.5rem
+    
+    &__container
+        // border: 1rem solid black
+        flex: 1 1 auto
+        background-color: #445162
+        max-height: 32.5rem
+        width: 100% 
+        margin: 0px auto
+        padding: 5rem
+        margin-bottom: 4rem
 
     &__flex
         display: flex
@@ -28,7 +31,7 @@ body
 
     &__body
         color: #fff
-        padding: 0px 20px 0px 0px
+        padding: 0rem 2rem 0rem 0rem
 
     &__text
         flex-wrap: nowrap
@@ -38,18 +41,71 @@ body
     &__list li
         font-size: 2rem
         background: url(../icon/icon.png)  no-repeat  
-        margin: 0rem 0rem 1.5rem 0rem
-        padding: 0rem 0rem 0rem 3.6rem
+        padding: 0rem 0rem 1.5rem 3.6rem
         list-style-type: none
         align-self: flex-start
-
-    &__img
         
 .img
     height: 21.4rem
     width: 46.9rem
     
+.section
+    &__container
+        // border: 1rem solid black
+        padding: 0rem 5rem 4.5rem 5rem 
+        margin-bottom: 4.5rem
+
+    &__flex
+        display: flex
+    
+    &__img
         
+        
+
+    &__body
+        color: #445162
+
+    &__title
+        font-size: 3rem
+        padding-bottom: 3.5rem
+    
+    &__text
+        font-size: 1.6rem
+        line-height: 2.4rem
+
+        &-1
+            margin-bottom: 3rem
+.img2
+    width: 43rem
+    height: 20rem
+    margin-right: 4rem
+        
+
+
+.columns
+
+    &__container
+        border: 1rem solid black
+        padding: 0rem 5rem 5rem 5rem  
+
+    &__flex
+        display: flex
+        flex-direction: row
+        justify-content: center
+    
+    &__title
+        color: #445162
+        font-size: 3rem
+    
+    &__square
+
+        &-1
+            width: 20rem
+            height: 15rem
+            background: #445162
+    
+        
+
         
 
      
