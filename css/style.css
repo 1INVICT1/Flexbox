@@ -123,7 +123,28 @@ body {
 }
 
 /* line 47, ../flexbox/sass/box/_insideBox.sass */
-.columns__square-1 {
+.columns__column1-1 {
+  width: 20rem;
+  height: 15rem;
+  background: #445162;
+}
+
+/* line 52, ../flexbox/sass/box/_insideBox.sass */
+.columns__column1-2 {
+  width: 20rem;
+  height: 15rem;
+  background: #445162;
+}
+
+/* line 59, ../flexbox/sass/box/_insideBox.sass */
+.columns__column2-1 {
+  width: 20rem;
+  height: 15rem;
+  background: #445162;
+}
+
+/* line 64, ../flexbox/sass/box/_insideBox.sass */
+.columns__column2-2 {
   width: 20rem;
   height: 15rem;
   background: #445162;
