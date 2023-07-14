@@ -6,16 +6,20 @@ html {
 /* line 4, ../flexbox/sass/base/_base.sass */
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  padding: 0;
-  margin: 0;
 }
 
-/* line 9, ../flexbox/sass/base/_base.sass */
+/* line 8, ../flexbox/sass/base/_base.sass */
 .wrapper {
   min-height: 100%;
   overflow: hidden;
-  display: flex;
-  flex-direction: column;
+}
+
+/* line 12, ../flexbox/sass/base/_base.sass */
+.container {
+  border: 1rem solid black;
+  width: 100%;
+  padding: 0rem 5rem 5rem 5rem;
+  margin-bottom: 5rem;
 }
 
 /* line 1, ../flexbox/sass/base/_typography.sass */
@@ -31,45 +35,46 @@ body {
   margin-right: 4rem;
 }
 
-/* line 3, ../flexbox/sass/box/_box.sass */
-.header__container {
+/* line 1, ../flexbox/sass/box/_box.sass */
+.header {
   flex: 1 1 auto;
   background-color: #445162;
   max-height: 32.5rem;
-  width: 100%;
-  margin: 0px auto;
-  padding: 5rem;
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
 }
 
-/* line 13, ../flexbox/sass/box/_box.sass */
+/* line 7, ../flexbox/sass/box/_box.sass */
 .header__flex {
+  border: 1rem solid black;
   display: flex;
   justify-content: space-between;
 }
 
-/* line 19, ../flexbox/sass/box/_box.sass */
-.section__container {
-  padding: 0rem 5rem 4.5rem 5rem;
-  margin-bottom: 4.5rem;
+/* line 15, ../flexbox/sass/box/_box.sass */
+.section__flex {
+  border: 1rem solid black;
+  display: flex;
 }
 
-/* line 24, ../flexbox/sass/box/_box.sass */
-.section__flex {
+/* line 23, ../flexbox/sass/box/_box.sass */
+.columns__flex {
+  border: 1rem solid black;
   display: flex;
+  justify-content: space-between;
 }
 
 /* line 30, ../flexbox/sass/box/_box.sass */
-.columns__container {
+.footer__flex {
   border: 1rem solid black;
-  padding: 0rem 5rem 5rem 5rem;
+  display: flex;
+  justify-content: center;
+  min-height: 6.5rem;
 }
 
-/* line 34, ../flexbox/sass/box/_box.sass */
-.columns__flex {
+/* line 39, ../flexbox/sass/box/_box.sass */
+.final__flex {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 /* line 3, ../flexbox/sass/box/_insideBox.sass */
@@ -117,37 +122,111 @@ body {
 }
 
 /* line 41, ../flexbox/sass/box/_insideBox.sass */
-.columns__title {
+.columns__mainTitle {
+  text-align: center;
   color: #445162;
   font-size: 3rem;
+  padding-bottom: 3rem;
 }
 
 /* line 47, ../flexbox/sass/box/_insideBox.sass */
-.columns__column1-1 {
-  width: 20rem;
-  height: 15rem;
-  background: #445162;
+.columns__column {
+  display: flex;
+  justify-content: space-between;
 }
 
-/* line 52, ../flexbox/sass/box/_insideBox.sass */
-.columns__column1-2 {
-  width: 20rem;
-  height: 15rem;
-  background: #445162;
+/* line 51, ../flexbox/sass/box/_insideBox.sass */
+.columns__img {
+  margin: 0rem 1.5rem 3rem 0rem;
 }
 
-/* line 59, ../flexbox/sass/box/_insideBox.sass */
-.columns__column2-1 {
-  width: 20rem;
-  height: 15rem;
-  background: #445162;
+/* line 54, ../flexbox/sass/box/_insideBox.sass */
+.columns__title {
+  color: #445162;
+  font-size: 2.4rem;
 }
 
-/* line 64, ../flexbox/sass/box/_insideBox.sass */
-.columns__column2-2 {
-  width: 20rem;
-  height: 15rem;
-  background: #445162;
+/* line 58, ../flexbox/sass/box/_insideBox.sass */
+.columns__text {
+  max-width: 36rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+/* line 63, ../flexbox/sass/box/_insideBox.sass */
+.footer h2 {
+  align-self: center;
+  color: #445162;
+  font-size: 1.2rem;
+}
+
+/* line 70, ../flexbox/sass/box/_insideBox.sass */
+.final__mainTitle {
+  text-align: center;
+  color: #445162;
+  font-size: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* line 76, ../flexbox/sass/box/_insideBox.sass */
+.final__column {
+  background-color: #445162;
+  width: 30rem;
+  height: 50rem;
+  border-radius: 0.5rem;
+}
+
+/* line 84, ../flexbox/sass/box/_insideBox.sass */
+.final__text-1 {
+  border-radius: 1rem;
+  text-align: center;
+  background-color: #445162;
+  color: #fff;
+  width: 30rem;
+  height: 5rem;
+  font-size: 2.4rem;
+  line-height: 5rem;
+  text-transform: uppercase;
+}
+
+/* line 95, ../flexbox/sass/box/_insideBox.sass */
+.final__text-2 {
+  text-align: center;
+  background-color: #fff;
+  color: #445162;
+  margin-left: 0.5rem;
+  width: 29rem;
+  height: 7rem;
+  font-size: 4rem;
+  line-height: 6rem;
+}
+
+/* line 105, ../flexbox/sass/box/_insideBox.sass */
+.final__text-3 {
+  border-radius: 1rem;
+  background-color: #445162;
+  color: #fff;
+  width: 30rem;
+  height: 38rem;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding: 2.1rem;
+}
+
+/* line 114, ../flexbox/sass/box/_insideBox.sass */
+h3 {
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 4rem;
+}
+
+/* line 1, ../flexbox/sass/components/_button.sass */
+.final__button {
+  margin-top: 22rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  width: 26rem;
+  height: 4rem;
 }
 
 /*# sourceMappingURL=style.css.map */
