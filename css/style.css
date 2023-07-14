@@ -16,9 +16,8 @@ body {
 
 /* line 12, ../flexbox/sass/base/_base.sass */
 .container {
-  border: 1rem solid black;
   width: 100%;
-  padding: 0rem 5rem 5rem 5rem;
+  padding: 0rem 5rem 2rem 5rem;
   margin-bottom: 5rem;
 }
 
@@ -35,6 +34,30 @@ body {
   margin-right: 4rem;
 }
 
+/* line 11, ../flexbox/sass/base/_typography.sass */
+h3 {
+  margin-top: 22rem;
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 4rem;
+}
+
+/* line 17, ../flexbox/sass/base/_typography.sass */
+h4 {
+  margin-top: 8rem;
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 4rem;
+}
+
+/* line 23, ../flexbox/sass/base/_typography.sass */
+h5 {
+  margin-top: 18rem;
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 4rem;
+}
+
 /* line 1, ../flexbox/sass/box/_box.sass */
 .header {
   flex: 1 1 auto;
@@ -45,33 +68,35 @@ body {
 
 /* line 7, ../flexbox/sass/box/_box.sass */
 .header__flex {
-  border: 1rem solid black;
   display: flex;
   justify-content: space-between;
 }
 
 /* line 15, ../flexbox/sass/box/_box.sass */
 .section__flex {
-  border: 1rem solid black;
   display: flex;
 }
 
 /* line 23, ../flexbox/sass/box/_box.sass */
 .columns__flex {
-  border: 1rem solid black;
   display: flex;
   justify-content: space-between;
 }
 
 /* line 30, ../flexbox/sass/box/_box.sass */
 .footer__flex {
-  border: 1rem solid black;
   display: flex;
   justify-content: center;
   min-height: 6.5rem;
 }
 
 /* line 39, ../flexbox/sass/box/_box.sass */
+.final__container {
+  width: 100%;
+  padding: 0rem 5rem 5rem 5rem;
+}
+
+/* line 44, ../flexbox/sass/box/_box.sass */
 .final__flex {
   display: flex;
   justify-content: space-around;
@@ -213,16 +238,8 @@ body {
   padding: 2.1rem;
 }
 
-/* line 114, ../flexbox/sass/box/_insideBox.sass */
-h3 {
-  text-align: center;
-  font-size: 1.8rem;
-  line-height: 4rem;
-}
-
 /* line 1, ../flexbox/sass/components/_button.sass */
 .final__button {
-  margin-top: 22rem;
   background-color: #fff;
   border-radius: 0.5rem;
   width: 26rem;
